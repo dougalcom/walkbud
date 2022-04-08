@@ -11,8 +11,8 @@ if(isset($authUrl)){  //user is not logged in
 $user_id = $_SESSION['user_id'];
 $given_name = $_SESSION['given_name'];
 
-$dev_table = 'walkbud';
-$prod_table = 'walkbud.walkbud';
+$dev_table = 'walkbud.buddy_dev';
+$prod_table = 'walkbud.buddy_prod';
 
 // enable one of these to select prod or dev data table
 $table = $dev_table;
